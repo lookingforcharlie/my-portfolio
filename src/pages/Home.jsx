@@ -1,20 +1,26 @@
 import React from "react";
 import avatar from "../assets/avatar_1.jpg";
 import { Link } from "react-router-dom";
+import { MdWorkOutline } from "react-icons/md";
 
 function Home() {
   return (
-    <div className='flex'>
-      <div>
-        <img src={avatar} alt='avatar' style={{ width: "650px" }} />
-      </div>
-      <div className='text-center'>
-        <h1>Welcome To My Applications Hub</h1>
-      </div>
-      <div>
-        <Link to='/projects' className='btn'>
-          Check out my projects
-        </Link>
+    <div className='card card-side bg-base-100 flex'>
+      <figure className='flex-1'>
+        <img src={avatar} alt='avatar' />
+      </figure>
+      <div className='card-body flex-1'>
+        <h2 className='card-title text-6xl'>Welcome !</h2>
+        <p className='text-xl'>
+          A Full-Time, <br></br>Full-Stack, <br></br>Fully-Passionate <br></br>
+          Web Dev says "Hello".
+        </p>
+        <div className='card-actions justify-start'>
+          <Link to='/projects' className='btn btn-primary'>
+            <MdWorkOutline className='mr-2' />
+            Check Out my Projects Hub
+          </Link>
+        </div>
       </div>
     </div>
   );
