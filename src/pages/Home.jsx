@@ -10,7 +10,7 @@ function Home() {
         <img src={avatar} alt='avatar' />
       </figure>
       <div className='card-body flex-1'>
-        <h2 className='card-title text-6xl'>Welcome !</h2>
+        <h1 className='card-title text-6xl'>Welcome !</h1>
         <p className='text-xl'>
           A Full-Time, <br></br>Full-Stack, <br></br>Fully-Passionate <br></br>
           Web Dev says "Hello".

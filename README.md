@@ -1,6 +1,6 @@
 # My Portfolio
 
-Version 1.0.0
+Version 1.0.1
 
 Start Date: March 18, 2022
 
@@ -26,11 +26,18 @@ plugins: [require("daisyui")],
 
 ## Description
 
-5 Projects.
+Pages includes five projects:
+Property Marketplace Explorer,
+GitHub Finder,
+Feedback UI,
+Todo List
+Weather App
 
 ## Expected Updates
 
-Make home page more responsive
+Make home page more responsive on the mobile: Make a hamburger menu
+
+Accessibility for all pages
 
 Design personal logo: add in Navbar and right end in footer
 
@@ -45,3 +52,13 @@ Perhaps add Resume
 Add motion effect for shift between pages
 
 Redesign cards in Arsenal, perhaps put canon logo at the left corner
+
+Accessibility: browser plugin aXe
+
+Take the React Icon away from the tab
+
+clear the alt in Tailwind CSS
+
+## Updates
+
+Accessibility feature: add aria-label for nav, footer and home.

@@ -19,6 +19,8 @@ function Navbar({ title }) {
             href='https://github.com/lookingforcharlie'
             target='_blank'
             rel='noreferrer'
+            alt='github'
+            aria-label='github'
           >
             <FiGithub className='inline pr-2 text-2xl' />
           </a>
@@ -26,6 +28,8 @@ function Navbar({ title }) {
             href='https://twitter.com/CharlieFeng2020'
             target='_blank'
             rel='noreferrer'
+            alt='twitter'
+            aria-label='twitter'
           >
             <FiTwitter className='inline pr-2 text-2xl' />
           </a>
@@ -33,6 +37,8 @@ function Navbar({ title }) {
             href='https://www.linkedin.com/in/xiaobingfeng/'
             target='_blank'
             rel='noreferrer'
+            alt='linkedin'
+            aria-label='linkedin'
           >
             <FiLinkedin className='inline pr-2 text-2xl' />
           </a>
@@ -40,6 +46,8 @@ function Navbar({ title }) {
             href='mailto:charliefeng2020@gmail.com'
             target='_blank'
             rel='noreferrer'
+            alt='email'
+            aria-label='email'
           >
             <MdAlternateEmail className='inline pr-2 text-2xl' />
           </a>

@@ -14,6 +14,7 @@ function Footer() {
             href='https://github.com/lookingforcharlie'
             target='_blank'
             rel='noreferrer'
+            aria-label='github'
           >
             <FiGithub className='inline pr-2 text-2xl' />
           </a>
@@ -21,6 +22,7 @@ function Footer() {
             href='https://twitter.com/CharlieFeng2020'
             target='_blank'
             rel='noreferrer'
+            aria-label='twitter'
           >
             <FiTwitter className='inline pr-2 text-2xl' />
           </a>
@@ -28,6 +30,7 @@ function Footer() {
             href='https://www.linkedin.com/in/xiaobingfeng/'
             target='_blank'
             rel='noreferrer'
+            aria-label='linkedin'
           >
             <FiLinkedin className='inline pr-2 text-2xl' />
           </a>
@@ -35,6 +38,7 @@ function Footer() {
             href='mailto:charliefeng2020@gmail.com'
             target='_blank'
             rel='noreferrer'
+            aria-label='email'
           >
             <MdAlternateEmail className='inline pr-2 text-2xl' />
           </a>
