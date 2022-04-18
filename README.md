@@ -1,6 +1,6 @@
 # My Portfolio
 
-Version 1.0.1
+Version 2.0.0
 
 Start Date: March 18, 2022
 
@@ -59,8 +59,8 @@ Take the React Icon away from the tab
 
 clear the alt in Tailwind CSS
 
-## Updates
+## Updates and Fixes
 
 Accessibility feature: add aria-label for nav, footer and home.
 
-hello hello
+Home page totally responsive on the mobile: Config Tailwind CSS
