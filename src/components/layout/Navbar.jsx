@@ -53,7 +53,8 @@ function Navbar({ title }) {
           </a>
         </div>
         <div className='flex-1 px-2 mx-2'>
-          <div className='flex justify-end'>
+          {/* links will be invisible when screen hit the md value */}
+          <div className='hidden md:flex justify-end'>
             <Link to='/' className='btn btn-ghost btn-xs rounded-btn'>
               Home
             </Link>

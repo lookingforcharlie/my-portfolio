@@ -1,11 +1,11 @@
-import React from "react";
-import github_finder from "../assets/githubfinder530.png";
-import property from "../assets/property530.png";
-import todolist from "../assets/todolist530.png";
-import feedback from "../assets/feedback530.png";
-import weatherapp from "../assets/weatherapp530.png";
-import { MdOutlineRestorePage } from "react-icons/md";
-import { FaGithubAlt } from "react-icons/fa";
+import React from 'react';
+import github_finder from '../assets/githubfinder530.png';
+import property from '../assets/property530.png';
+import todolist from '../assets/todolist530.png';
+import feedback from '../assets/feedback530.png';
+import weatherapp from '../assets/weatherapp530.png';
+import { MdOutlineRestorePage } from 'react-icons/md';
+import { FaGithubAlt } from 'react-icons/fa';
 
 function Projects() {
   return (
@@ -88,7 +88,7 @@ function Projects() {
               <div className='card-actions justify-end'>
                 <button className='btn btn-primary shadow-md'>
                   <a
-                    href='https://githuber-finder.vercel.app/'
+                    href='https://new-github-finder-aug22.vercel.app/'
                     target='_blank'
                     rel='noreferrer'
                     className='flex flex-row items-center'
@@ -99,7 +99,7 @@ function Projects() {
                 </button>
                 <button className='btn btn-primary shadow-md'>
                   <a
-                    href='https://github.com/lookingforcharlie/githuber-finder'
+                    href='https://github.com/lookingforcharlie/new-github-finder'
                     target='_blank'
                     rel='noreferrer'
                     className='flex flex-row items-center'
