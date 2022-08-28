@@ -1,10 +1,12 @@
 # My Portfolio
 
-Version 1.0.1
+Version 1.0.2
 
 Start Date: March 18, 2022
 
 Deployment Date: April 13, 2022
+
+Second Deployment: Aug 27, 2022
 
 ## Libraries & Tool Chain
 
@@ -62,3 +64,4 @@ clear the alt in Tailwind CSS
 ## Updates
 
 Accessibility feature: add aria-label for nav, footer and home.
+Re-do GitHub Finder, fixed the search bug.
