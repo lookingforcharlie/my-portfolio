@@ -1,5 +1,11 @@
 # My Portfolio
 
+Version 1.1.0  
+Date: Dec 24, 2022
+Update: Fixed the bug of hamburger menu for the navbar
+
+---
+
 Version 1.0.2
 
 Start Date: March 18, 2022
